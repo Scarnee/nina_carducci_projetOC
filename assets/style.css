@@ -89,9 +89,9 @@ body {
     font-size: 14px;
 }
 
-#gallery {
-    /*	min-height: 100vh; */
-}
+/*#gallery {
+    	min-height: 100vh; 
+}*/
 .title {
     text-align: center;
     padding-block: 2em;
@@ -137,7 +137,7 @@ body {
 }
 .active-tag {
     background-color: #beb45a !important;
-    color: white !important;
+    color: black !important;
 }
 .quote {
     font-family: "Spectral";
