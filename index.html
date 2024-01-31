@@ -11,15 +11,41 @@
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media')"/>
-
-        <title>Nina Carducci - Photographe</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
+            rel="stylesheet"
+            media="print"
+            onload="this.onload=null;this.removeAttribute('media')" />
+        <script type="application/ld+json">
+                    {
+                                    "@context":"https://schema.org/",
+                                    "@type":"LocalBusiness",
+                                    "name":"Nina Carducci - Photographe",
+                                    "url":"https://scarnee.github.io/nina_carducci_projetOC/",
+                                    "@id":"https://scarnee.github.io/nina_carducci_projetOC/",
+                                    "image":"https://scarnee.github.io/nina_carducci_projetOC/assets/images/nina.webp",
+                                    "currenciesAccepted":"EUR",
+                                    "openingHours":"Mo,Tu,We,Th,Fr 10:00-19:00",
+                                    "paymentAccepted":"Cash,Credit Card",
+                                    "address":{
+                                        "@type":"PostalAddress",
+                                        "addressCountry":"France",
+                                        "addressLocality":"Bordeaux",
+                                        "postalCode":"33200",
+                                        "streetAddress":"68, avenue Alsace-Lorraine"
+                                    },
+                                    "telephone":"05 56 67 78 89",
+                                    "email":"nina.carducci@gmail.com",
+                                    "priceRange":"50-400"
+                    }
+        </script>
+        <title>Nina Carducci - Photographe sur Bordeaux</title>
     </head>
     <body>
         <header>
             <div class="top-header">
                 <h3 class="name">Nina Carducci</h3>
-                <div class="nav">
+                <nav class="nav">
                     <ul>
                         <li><a href="#about">À propos</a></li>
                         <li><a href="#gallery">Galerie</a></li>
@@ -29,7 +55,7 @@
                             <a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.webp" alt="instagram" /></a>
                         </li>
                     </ul>
-                </div>
+                </nav>
             </div>
             <div id="header">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -120,7 +146,7 @@
                     </p>
                 </div>
             </div>
-            <div id="gallery">
+            <section id="gallery">
                 <h3 class="title">Portfolio</h3>
                 <div class="container py-3">
                     <div class="gallery" style="display: none">
@@ -146,8 +172,8 @@
                         <figcaption class="quote__author">- Richard Avedon</figcaption>
                     </figure>
                 </div>
-            </div>
-            <div id="services">
+            </section>
+            <section id="services">
                 <h2 class="title">Mes services</h2>
                 <div class="container">
                     <div class="service">
@@ -181,7 +207,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             <div class="quote">
                 <figure>
                     <blockquote>
@@ -213,11 +239,10 @@
                 </div>
             </div>
         </footer>
+        <!--  Scripts -->
+        <script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="./assets/maugallery.min.js"></script>
+        <script src="./assets/scripts.min.js"></script>
     </body>
-
-    <!--  Scripts -->
-    <script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="./assets/maugallery.min.js"></script>
-    <script src="./assets/scripts.min.js"></script>
 </html>
