@@ -1,4 +1,4 @@
-Project OpenClassrooms - Nina Carducci
+# Project OpenClassrooms - Nina Carducci
 
 Objectives
 
